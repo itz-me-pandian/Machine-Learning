@@ -9,7 +9,6 @@ These notebooks can be opened and run directly in Jupyter Notebook, JupyterLab, 
 Included Notebooks:
 
 1. Python_Libraries.ipynb
-2. iris.ipynb
 
 ## Objective
 
@@ -49,6 +48,7 @@ You can install all dependencies using pip:
 ```
 pip install numpy pandas scipy scikit-learn
 ```
+
 
 
 
