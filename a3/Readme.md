@@ -1,4 +1,4 @@
-# Assignment 3 (`a3` Directory)
+# Assignment 3 (` Email Spam or Ham Classification using Naïve Bayes, KNN, and SVM`)
 
 This directory contains files and scripts for Assignment 3 of the Machine Learning course. The assignment focuses on Email Spam or Ham Classification using Na¨ıve Bayes, KNN, and
  SVM.
@@ -17,7 +17,7 @@ This directory contains files and scripts for Assignment 3 of the Machine Learni
         ◦ Data normalization/standardization.
         
     4. Model Implementation
-        ◦ KNN
+        ◦ KNN (KNN,Ball Tree,KD Tree)
         ◦ Naive Bayes Variants(Bernoulli,Gaussian,Multinomial)
         ◦ SVC
         
@@ -41,7 +41,6 @@ Typical files you might find in this directory:
 - `ipynb models files of 3 models`: Main code or notebook for the assignment.
 - `spambase_csv.csv`: dataset (CSV).
 - `output`: Output of all models(ROC,Confusion Matrix).
-- `results/`: Metrics, predictions, or model files.
 
 ## How to Use
 
