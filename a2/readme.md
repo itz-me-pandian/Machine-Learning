@@ -35,7 +35,7 @@ The notebook includes the following steps:
 
 The Link of the dataset used in this assignment is https://www.kaggle.com/datasets/phileinsophos/predict-loan-amount-data
 
-The dataset used in this assignment is assumed to be related to loan amount prediction problems and is accessed via Google Drive. If you'd like to run the notebook locally, ensure that the dataset path is correctly specified and the required file is uploaded.
+The dataset used in this assignment is related to loan amount prediction problems and is accessed via Google Drive. If you'd like to run the notebook locally, ensure that the dataset path is correctly specified and the required file is uploaded.
 
 🔧 Requirements
 
