@@ -1,19 +1,21 @@
 # Assignment 3 (`a3` Directory)
 
-This directory contains files and scripts for Assignment 3 of the Machine Learning course. The assignment focuses on practical applications of machine learning concepts, including data preprocessing, model training, evaluation, and interpretation.
+This directory contains files and scripts for Assignment 3 of the Machine Learning course. The assignment focuses on Email Spam or Ham Classification using Na¨ıve Bayes, KNN, and
+ SVM.
 
 ## Contents
 
-- **Data Files**: Dataset used for training and testing machine learning models.
-- **Jupyter Notebooks / Python Scripts**: Code for data analysis, visualization, feature engineering, model building, and evaluation.
-- **Results**: Output files such as plots, metrics, and model predictions.
+- **Dataset**: 
+The Link of the dataset used in this assignment is [https://www.kaggle.com/datasets/phileinsophos/predict-loan-amount-data](https://www.kaggle.com/datasets/somesh24/spambase). The dataset used in this assignment is related to Email Spam or Ham Classification and is accessed via Google Drive. If you'd like to run the notebook locally, ensure that the dataset path is correctly specified and the required file is uploaded.
+- **Jupyter Notebooks for each model**: Code for data analysis, visualization, feature engineering, model building, and evaluation is given for 3 models (KNN,Naive Bayes,SVC).
+- **Output**: Has Output files such as ROC and Confusion Matrix.
 
 ## Structure
 
 Typical files you might find in this directory:
-- `a3.ipynb` or `assignment3.py`: Main code or notebook for the assignment.
-- `data/`: Folder containing datasets (CSV, TXT, etc.).
-- `plots/`: Generated visualizations from analysis.
+- `ipynb models files of 3 models`: Main code or notebook for the assignment.
+- `spambase_csv.csv`: dataset (CSV).
+- `output`: Output of all models(ROC,Confusion Matrix).
 - `results/`: Metrics, predictions, or model files.
 
 ## How to Use
@@ -31,21 +33,16 @@ Typical files you might find in this directory:
    ```
 
 3. **Run the Assignment**
-   - For Jupyter notebooks, open with:
-     ```bash
-     jupyter notebook a3.ipynb
-     ```
-   - For Python scripts, run:
-     ```bash
-     python assignment3.py
-     ```
+    1. Open the notebook in Google Colab or Jupyter Notebook of desired model.
+    2. Mount your Google Drive if running in Colab.
+    3. Ensure the dataset is available at the specified path.
+    4. Run each cell in order to replicate results.
 
 ## Notes
 
-- Make sure you have Python and the necessary libraries (e.g., numpy, pandas, scikit-learn, matplotlib) installed.
+- Make sure you have Python and the necessary libraries (e.g., numpy, pandas, scikit-learn, matplotlib, seaborn) installed.
 - Refer to comments in the code for explanation of each step.
-- Output files (plots, results) will be saved in their respective folders.
-
+  
 ## Author
 
 Developed by [itz-me-pandian](https://github.com/itz-me-pandian) as part of the Machine Learning course.
