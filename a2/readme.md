@@ -48,3 +48,11 @@ pip install pandas numpy matplotlib seaborn scikit-learn
     2. Mount your Google Drive if running in Colab.
     3. Ensure the dataset is available at the specified path.
     4. Run each cell in order to replicate results.
+
+## Author
+
+Developed by [itz-me-pandian](https://github.com/itz-me-pandian) as part of the Machine Learning laboratory course.
+
+## License
+
+This assignment code is for educational purposes.
