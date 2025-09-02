@@ -5,10 +5,35 @@ This directory contains files and scripts for Assignment 3 of the Machine Learni
 
 ## Contents
 
-- **Dataset**: 
-The Link of the dataset used in this assignment is [https://www.kaggle.com/datasets/phileinsophos/predict-loan-amount-data](https://www.kaggle.com/datasets/somesh24/spambase). The dataset used in this assignment is related to Email Spam or Ham Classification and is accessed via Google Drive. If you'd like to run the notebook locally, ensure that the dataset path is correctly specified and the required file is uploaded.
-- **Jupyter Notebooks for each model**: Code for data analysis, visualization, feature engineering, model building, and evaluation is given for 3 models (KNN,Naive Bayes,SVC).
-- **Output**: Has Output files such as ROC and Confusion Matrix.
+    1. Importing Libraries
+        Essential Python libraries like pandas, numpy, matplotlib, seaborn, sklearn are imported.
+
+    2. Reading and Exploring the Dataset
+        Reads the dataset from Google Drive, explores structure, checks for missing values, and performs EDA (Exploratory Data Analysis).
+
+    3. Data Cleaning and Preprocessing
+        ◦ Missing value imputation using SimpleImputer.
+        ◦ Label encoding of categorical features.
+        ◦ Data normalization/standardization.
+        
+    4. Model Implementation
+        ◦ KNN
+        ◦ Naive Bayes Variants(Bernoulli,Gaussian,Multinomial)
+        ◦ SVC
+        
+    6. Model Evaluation
+        ◦ Accuracy
+        ◦ Precision
+        ◦ Recall
+        ◦ Confusion Matrix
+        ◦ ROC
+        ◦ AUC
+        
+    7. Cross Fold validation
+        Demonstrates how k fold validation impacts model performance.
+
+## Dataset: 
+  The Link of the dataset used in this assignment is [https://www.kaggle.com/datasets/phileinsophos/predict-loan-amount-data](https://www.kaggle.com/datasets/somesh24/spambase). The dataset used in this assignment is related to Email Spam or Ham Classification and is accessed via Google Drive. If you'd like to run the notebook locally, ensure that the dataset path is correctly specified and the required file is uploaded.
 
 ## Structure
 
